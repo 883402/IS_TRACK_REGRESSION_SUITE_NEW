@@ -32,8 +32,9 @@ public class MainClass
 	static String sOperation = "";
 	HSSFSheet sheet;
 	
-	public static void main(String args[])throws Exception
-	
+	//public static void main(String args[])throws Exception
+	@Test
+	public void ThemisTest throws Exception
 	{
 		MainClass mc= new MainClass();
 		mc.Execute("C:\\Scripts\\IS TRACK Regression Suite\\Master Script.xlsx");
