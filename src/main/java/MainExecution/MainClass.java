@@ -39,7 +39,7 @@ public class MainClass
 		mc.Execute("C:\\Scripts\\IS TRACK Regression Suite\\Master Script.xlsx");
 	
 	}
-	@Test(priority=0)
+	//@Test(priority=0)
 	public void Execute(String FilePath) throws Exception
 	{
 		//MainClass obj= new MainClass();
